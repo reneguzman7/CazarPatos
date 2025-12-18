@@ -14,6 +14,7 @@ import android.os.Looper
 import android.util.Log
 import android.view.animation.LinearInterpolator
 import androidx.appcompat.app.AlertDialog
+import com.guzman.rene.cazarpatos.Constants.EXTRA_LOGIN
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -213,4 +214,3 @@ class MainActivity : AppCompatActivity() {
         soundPool.release()
     }
 }
-

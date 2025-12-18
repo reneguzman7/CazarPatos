@@ -8,8 +8,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_game"
     android:padding="32dp"
-    android:fitsSystemWindows="true"  <!-- ✅ Ajusta automáticamente el contenido debajo del notch -->
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
+
+    <!-- ✅ Ajusta automáticamente el contenido debajo del notch -->
 
     <!-- Imagen del pato -->
 <ImageView
@@ -52,7 +54,9 @@ android:text="TextView"
 app:layout_constraintEnd_toEndOf="parent"
 app:layout_constraintStart_toStartOf="parent"
 app:layout_constraintTop_toBottomOf="@+id/imageViewCounter"
-android:layout_marginTop="8dp" /> <!-- ✅ Pequeño margen para que quede separado del contador -->
+android:layout_marginTop="8dp" />
+
+    <!-- ✅ Pequeño margen para que quede separado del contador -->
 
     <!-- Contador de tiempo -->
 <ImageView
