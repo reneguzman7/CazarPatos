@@ -12,15 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CazarPatos">
 
-        <!-- Activity principal -->
+        <!-- Ranking Activity - Temporary launcher -->
         <activity
-            android:name=".LoginActivity"
-            android:exported="true"> <!-- Importante para Android 12+ -->
+            android:name=".RankingActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
